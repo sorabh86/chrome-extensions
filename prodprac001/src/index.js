@@ -1,5 +1,6 @@
 import Customer from "./lib/customer"
 
-let sorabh = new Customer();
+console.log("started");
 
-console.log("hello world");
+var sorabh = new Customer('Sorabh', "123 Street", '3938829300');
+sorabh.printGreet();

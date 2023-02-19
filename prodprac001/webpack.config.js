@@ -1,5 +1,7 @@
 const path = require('path');
 
+// console.log(path.join(__dirname, 'public'));
+
 /**
  * Webpack placeholders
  * [hash] | [chunkhash] | [name] | [id] | [query] | [contenthash]
@@ -19,9 +21,15 @@ module.exports = {
 		// filename: '../build/build.js', // output to filename create new folder outside
 		filename: 'js/[name].build.js', // output filename with folder with webpack placeholders
 		publicPath: '/assets/', // path that webpack used to internally(path on server) while in development of application
-		libraryTarget:'umd', // define various export syntax implementations like CommonJS, AMD define, ES6 import  
-		library:'sosLib', // it is library name and required if you set libraryTarget, this will be available on global scope
+		// libraryTarget:'umd', // define various export syntax implementations like CommonJS, AMD define, ES6 import  
+		// library:'sosLib', // it is library name and required if you set libraryTarget, this will be available on global scope
 
-
+	},
+	devServer: {
+		port:3002,
+		static: {
+			directory: path.join(__dirname, 'public')
+		}
 	}
 }
+
