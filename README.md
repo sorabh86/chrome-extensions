@@ -8,7 +8,22 @@ Most of modern web browser use same architecture, e.g.
 * Safari
 
 ## Webpack 
+This project make use of webpack bundler and webpack development server. 
+
+### Installations
+
 * `yarn add webpack webpack-cli -D`
+* `yarn add webpack-dev-server -D`
+
+### Commands
+* `yarn build`
+* `yarn dev`
+
+### Configuration
+* We create a webpack.config.js file
+* Entry 
+* Output
+* Dev Server configuration
 
 ## Reference
 [chrome documentation](https://developer.chrome.com/docs/extensions/)

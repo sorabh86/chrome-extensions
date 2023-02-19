@@ -29,7 +29,11 @@ module.exports = {
 		port:3002,
 		static: {
 			directory: path.join(__dirname, 'public')
-		}
+		},
+		devMiddleware: {
+	      writeToDisk: false, // generate file and save it to disk
+	    },
+
 	}
 }
 
