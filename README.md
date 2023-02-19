@@ -9,6 +9,7 @@ Most of modern web browser use same architecture, e.g.
 
 ## Webpack 
 This project make use of webpack bundler and webpack development server. 
+[webpack documentation](https://webpack.js.org/api/)
 
 ### Installations
 
