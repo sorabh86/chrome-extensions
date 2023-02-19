@@ -7,6 +7,9 @@ Most of modern web browser use same architecture, e.g.
 * Firfox
 * Safari
 
+## Webpack 
+* `yarn add webpack webpack-cli -D`
+
 ## Reference
 [chrome documentation](https://developer.chrome.com/docs/extensions/)
 [Edge documentation](https://developer.microsoft.com/en-us/microsoft-edge/extensions/)

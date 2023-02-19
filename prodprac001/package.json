@@ -1,11 +1,13 @@
 {
   "name": "prodprac001",
   "author": "sorabh86 <ssorabh.ssharma@hotmail.com>",
+  "description": "This is a practise project for webpack development",
   "packageManager": "yarn@3.4.1",
   "scripts": {
+  	"dev": "",
     "build": "webpack"
   },
-  "dependencies": {
+  "devDependencies": {
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   }
