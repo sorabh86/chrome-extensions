@@ -26,6 +26,11 @@ This project make use of webpack bundler and webpack development server.
 * Output
 * Dev Server configuration
 
+### Dev Server
+* [Documentation](https://webpack.js.org/configuration/dev-server/)
+* Hot Module Replacement(HMR)
+
+
 ## Reference
 [chrome documentation](https://developer.chrome.com/docs/extensions/)
 [Edge documentation](https://developer.microsoft.com/en-us/microsoft-edge/extensions/)

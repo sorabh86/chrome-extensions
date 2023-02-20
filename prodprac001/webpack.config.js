@@ -1,6 +1,5 @@
 const path = require('path');
-
-// console.log(path.join(__dirname, 'public'));
+const webpack = require('webpack');
 
 /**
  * Webpack placeholders
@@ -33,7 +32,12 @@ module.exports = {
 		devMiddleware: {
 	      writeToDisk: false, // generate file and save it to disk
 	    },
+	    hot:true, // enable Hot Module Replacement(HMR)
 
-	}
+
+	},
+	plugins: [
+		new webpack.HotModuleReplacementPlugin(), //enable Hot Module Replacement(HMR) by providing it via plugins
+	],
+
 }
-

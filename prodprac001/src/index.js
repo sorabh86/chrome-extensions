@@ -1,9 +1,18 @@
-import Customer from "./lib/customer"
+import Customer, {createRootDiv} from "./lib/customer"
 
-console.log("started");
+const customers = [
+	{name:'Sorabh', address:"123 Street", phone:'3938829300'},
+	{name:'Neeraj', address:"343 Green Land", phone:'9584736582'},
+	{name:'Pankaj', address:"River Side 2", phone:'5959584932'},
+	{name:'Deepak', address:"123 Street", phone:'9388293000'},
+];
 
-var sorabh = new Customer('Sorabh', "123 Street", '3938829300');
-sorabh.printGreet();
+const customerList = [];
 
-var neeraj = new Customer('Neeraj', "343 Street", '9584736582');
-neeraj.printGreet();
+// add new customer in dom
+createRootDiv();
+customers.forEach(e=>customerList.push(new Customer(e.name, e.address, e.phone)));
+
+console.log(customerList);
+
+if(module && module.hot) module.hot.accept();
