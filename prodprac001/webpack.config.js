@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 /**
  * Webpack placeholders
@@ -14,6 +15,7 @@ module.exports = {
 	mode:"development", // default "production" or "development"
 	entry:{// default entry for javascript | string, object or array path to files
 		app:"./src/index.js", // entry placeholder
+		popup:"./src/popup.js", // second entry
 	}, 
 	output: { // output configuration
 		path: path.resolve(__dirname, 'build'), // folder path to output
@@ -25,8 +27,8 @@ module.exports = {
 
 	},
 	devServer: {
-		port:3002,
-		static: {
+		port:3002, // running on port localhost:3002
+		static: { // static folder directory
 			directory: path.join(__dirname, 'public')
 		},
 		devMiddleware: {
@@ -38,6 +40,16 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.HotModuleReplacementPlugin(), //enable Hot Module Replacement(HMR) by providing it via plugins
+		new HtmlWebpackPlugin({
+			template:path.resolve(__dirname, 'public', 'index.html'),
+			filename: "index.html",
+			chunks:['app']
+		}), // used to generate html template
+		new HtmlWebpackPlugin({
+			template:path.resolve(__dirname, 'public', 'popup.html'),
+			filename: "popup.html",
+			chunks:['popup']
+		})
 	],
 
 }
