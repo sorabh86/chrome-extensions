@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "name":"Font Styler by sorabh86",
+    "description":"This extension helps its user to manually change the fonts",
+    "version":"0.0.1",
+    "action":{
+        "default_popup":"index.html"
+    },
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["scripting"]
+
+}

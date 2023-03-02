@@ -1,0 +1,28 @@
+<div class="app">
+  <header class="sos-header">
+    <h2 class="">Replace Font on <br><small>{{location}}</small></h2>
+    <button mat-raised-button color="warn">Reset</button>
+  </header>
+  <section class="sos-body">
+    <mat-form-field>
+      <mat-label>Select Your Font</mat-label>
+      <mat-select (valueChange)="fontChangeHandler($event)">
+        <mat-option *ngFor="let font of fontList" 
+          [value]="font" 
+          [style]="'font-family: '+font+' !important'">
+          {{font}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select Your Style</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let style of styleList"
+        [value]="style"
+        >
+          {{style}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </section>
+</div>
