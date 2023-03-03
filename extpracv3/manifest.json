@@ -1,29 +1,48 @@
 {
+	// Required details
 	"manifest_version":3,
 	"name":"practise",
-	"description":"This is a practise chrome extension page",
-	"homepage_url": "https://sorabh86.github.com",
 	"version":"1.0.0",
 
-	"icons": {
-	     // "128": "icons/favicon-128.png",
-	     // "48": "icons/favicon-48.png",
-	     "32": "icons/favicon-32.png"
-	     // "16": "icons/favicon-16.png"
+
+	// Recommended details
+	// popup script
+	"action":{
+		"default_popup": "popup.html",
+		"default_title": "Change Your Font"
 	},
-	
+	"icons": {
+	     "16": "icons/icon-16.png",
+	     "32": "icons/icon-32.png",
+	     "48": "icons/icon-48.png",
+	     "128": "icons/icon-128.png"
+	},
+	// "default_locale":"en",
+
 	// injected content script
 	"content_scripts": [{
 		"matches":["<all_urls>"], 
 		"js": [ "content_script.js" ]
 	}],
+	"background": {
+		"service_worker":"service_worker.js"
+	},
+
+	// optional details
+	"permissions":[
+		"scripting", 
+		"tabs", 
+		"activeTab"
+	],
+	"host_permissions":[
+		"http://*", 
+		"http://*"
+	],
+
 	
-	// popup script
-	"action":{
-		"default_popup": "popup.html",
-		"js":"popup.js"
-	}
-	
+	"description":"This is a practise chrome extension page",
+	"author":"sorabh86 <ssorabh.ssharma@hotmail.com>",
+	"homepage_url": "https://sorabh86.github.com"
 	
 
 }

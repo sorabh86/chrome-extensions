@@ -32,5 +32,6 @@ This project make use of webpack bundler and webpack development server.
 
 
 ## Reference
-[chrome documentation](https://developer.chrome.com/docs/extensions/)
-[Edge documentation](https://developer.microsoft.com/en-us/microsoft-edge/extensions/)
+* [chrome documentation](https://developer.chrome.com/docs/extensions/)
+* [manifest v3](https://developer.chrome.com/docs/extensions/mv3/manifest/)
+* [Edge documentation](https://developer.microsoft.com/en-us/microsoft-edge/extensions/)

@@ -1,3 +1,5 @@
+console.log('popup.js running...');
+
 const googleFontUrl = 'https://fonts.googleapis.com/css2?family=';
 const googleFonts = [
   'Roboto', 'Lato', 'Poppins', 'Barlow',
