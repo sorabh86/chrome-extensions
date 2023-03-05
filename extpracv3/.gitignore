@@ -1,3 +1,5 @@
 sos-page-style-ch-extension
 bower_components
 node_modules
+.yarn
+yarn-error.log

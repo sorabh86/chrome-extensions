@@ -1,0 +1,151 @@
+{
+    "cssUrl": "https://fonts.googleapis.com/css2?family=",
+    "fonts": [{
+        "family": "Roboto",
+        "variants": ["100", "100italic", "300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic", "900", "900italic"]
+    }, {
+        "family": "Open Sans",
+        "variants": ["300", "regular", "500", "600", "700", "800", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"]
+    }, {
+        "family": "Lato",
+        "variants": ["100", "100italic", "300", "300italic", "regular", "italic", "700", "700italic", "900", "900italic"]
+    }, {
+        "family": "Montserrat",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "Roboto Condensed",
+        "variants": ["300", "300italic", "regular", "italic", "700", "700italic"]
+    }, {
+        "family": "Source Sans Pro",
+        "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "600", "600italic", "700", "700italic", "900", "900italic"]
+    }, {
+        "family": "Oswald",
+        "variants": ["200", "300", "regular", "500", "600", "700"]
+    }, {
+        "family": "Raleway",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "Roboto Mono",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic"]
+    }, {
+        "family": "Poppins",
+        "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"]
+    }, {
+        "family": "Noto Sans",
+        "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"]
+    }, {
+        "family": "Roboto Slab",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"]
+    }, {
+        "family": "Merriweather",
+        "variants": ["300", "300italic", "regular", "italic", "700", "700italic", "900", "900italic"]
+    }, {
+        "family": "Ubuntu",
+        "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic"]
+    }, {
+        "family": "PT Sans",
+        "variants": ["regular", "italic", "700", "700italic"]
+    }, {
+        "family": "Playfair Display",
+        "variants": ["regular", "500", "600", "700", "800", "900", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "Mulish",
+        "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "PT Serif",
+        "variants": ["regular", "italic", "700", "700italic"]
+    }, {
+        "family": "Lora",
+        "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"]
+    }, {
+        "family": "Nunito",
+        "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "Slabo 27px",
+        "variants": ["regular"]
+    }, {
+        "family": "Noto Sans JP",
+        "variants": ["100", "300", "regular", "500", "700", "900"]
+    }, {
+        "family": "Rubik",
+        "variants": ["300", "regular", "500", "600", "700", "800", "900", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "Titillium Web",
+        "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "600", "600italic", "700", "700italic", "900"]
+    }, {
+        "family": "Noto Serif",
+        "variants": ["regular", "italic", "700", "700italic"]
+    }, {
+        "family": "Fira Sans",
+        "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"]
+    }, {
+        "family": "Nanum Gothic",
+        "variants": ["regular", "700", "800"]
+    }, {
+        "family": "Work Sans",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "Noto Sans KR",
+        "variants": ["100", "300", "regular", "500", "700", "900"]
+    }, {
+        "family": "Quicksand",
+        "variants": ["300", "regular", "500", "600", "700"]
+    }, {
+        "family": "Nunito Sans",
+        "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"]
+    }, {
+        "family": "PT Sans Narrow",
+        "variants": ["regular", "700"]
+    }, {
+        "family": "Inconsolata",
+        "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"]
+    }, {
+        "family": "Heebo",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"]
+    }, {
+        "family": "Arimo",
+        "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"]
+    }, {
+        "family": "Dosis",
+        "variants": ["200", "300", "regular", "500", "600", "700", "800"]
+    }, {
+        "family": "Oxygen",
+        "variants": ["300", "regular", "700"]
+    }, {
+        "family": "Noto Sans TC",
+        "variants": ["100", "300", "regular", "500", "700", "900"]
+    }, {
+        "family": "Karla",
+        "variants": ["200", "300", "regular", "500", "600", "700", "800", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"]
+    }, {
+        "family": "Libre Baskerville",
+        "variants": ["regular", "italic", "700"]
+    }, {
+        "family": "Crimson Text",
+        "variants": ["regular", "italic", "600", "600italic", "700", "700italic"]
+    }, {
+        "family": "Cabin",
+        "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"]
+    }, {
+        "family": "Barlow",
+        "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"]
+    }, {
+        "family": "Bitter",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "Libre Franklin",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"]
+    }, {
+        "family": "Josefin Sans",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic"]
+    }, {
+        "family": "Hind",
+        "variants": ["300", "regular", "500", "600", "700"]
+    }, {
+        "family": "Mukta",
+        "variants": ["200", "300", "regular", "500", "600", "700", "800"]
+    }, {
+        "family": "Anton",
+        "variants": ["regular"]
+    }]
+}

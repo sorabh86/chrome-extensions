@@ -4,7 +4,6 @@
 	"name":"practise",
 	"version":"1.0.0",
 
-
 	// Recommended details
 	// popup script
 	"action":{
@@ -32,11 +31,13 @@
 	"permissions":[
 		"scripting", 
 		"tabs", 
-		"activeTab"
+		"activeTab",
+		"storage"
 	],
 	"host_permissions":[
-		"http://*", 
-		"http://*"
+		"https://*/*", 
+		"http://*/*",
+		"<all_urls>"
 	],
 
 	
