@@ -2,7 +2,7 @@ console.log('popup.js running...');
 
 (function($){
 window.addEventListener("DOMContentLoaded", async () => {
-	let app = undefined;
+	let app = new fontApp();
 	let tab = undefined;
 	const saveBtn = document.getElementById('save-btn');
 
@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 			app.alert("<p><strong>Permission Problem</strong><br>Your extension will not work properly on <br> <strong>'chrome://'</strong> or <strong>'file://'</strong></p>")
 		} else {
 			const hostname = tab.url.split('://')[1].split('/')[0];
-			app = new fontApp();
+			app.init()
 			app.setHostName(hostname.replace('www.',''));
 		}
 	}).catch(err => {
@@ -27,20 +27,19 @@ window.addEventListener("DOMContentLoaded", async () => {
 
 
 function fontApp() {
-	this.loadFonts().then(()=>{
-		this.init();
-	}).catch(e=>{
-		console.log('json error:', e);
-	});
-
+	// this.init();
 	// fetch(apiUrl).then(d=>d.json()).then(d=>console.log(d)).catch(e=>console.warn(e));
 }
 
 var p = fontApp.prototype || {}; 
 
 p.init = function() {
-	this.updateFontList();
-	this.addListener();
+	this.loadFonts().then(()=>{
+		this.updateFontList();
+		this.addListener();
+	}).catch(e=>{
+		console.log('json error:', e);
+	});
 };
 
 p.loadFonts = async function() {

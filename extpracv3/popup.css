@@ -81,21 +81,29 @@ body {
 
 
 #saved-list {
-	max-height: 150px;
-	overflow: auto;
+	display: grid;
+    min-height: 150px;
+    max-height: 150px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
 }
 #saved-list .title {
-	padding: 0 1em;
-	white-space: nowrap;
-  	overflow: hidden;
-  	text-overflow: ellipsis;
+    padding: 0 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(50vw - 78px);
 }
 #saved-list .list-group-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    width: 100%;
 }
-.btn-delete {
-
+#saved-list .list-group-item .btn-danger {
+    margin-right: 5px;
 }
